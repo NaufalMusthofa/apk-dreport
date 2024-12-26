@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Viga";
+  src: url('../../public/fonts/Viga-Regular.ttf') format('truetype');
+}
+
+/* Custom Styles for Login Form */
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  font-family: "Viga", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-card-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0072ff;
+}
+
+.login-card-body {
+  padding: 10px 0;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.btn {
+  background-color: #0072ff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+.form-check-label {
+  font-size: 14px;
+}
+
+.alert {
+  font-size: 14px;
+  text-align: center;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #0072ff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
